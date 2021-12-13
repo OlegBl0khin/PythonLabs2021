@@ -10,6 +10,10 @@ height = 400
 width = 500
 screen = pygame.display.set_mode((width, height))
 
+font = pygame.font.Font(None, 72)
+text = font.render(
+    "Hello Wold", True, (0, 100, 0))
+
 RED     = (255,   0,   0)
 BLUE    = (  0,   0, 255)
 YELLOW  = (255, 255,   0)
